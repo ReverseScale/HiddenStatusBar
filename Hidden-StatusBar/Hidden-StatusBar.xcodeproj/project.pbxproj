@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315047291D3F8AEB00754ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315047281D3F8AEB00754ABC /* AppDelegate.swift */; };
+		3150472B1D3F8AEB00754ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150472A1D3F8AEB00754ABC /* ViewController.swift */; };
+		3150472E1D3F8AEB00754ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3150472C1D3F8AEB00754ABC /* Main.storyboard */; };
+		315047301D3F8AEB00754ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3150472F1D3F8AEB00754ABC /* Assets.xcassets */; };
+		315047331D3F8AEB00754ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315047311D3F8AEB00754ABC /* LaunchScreen.storyboard */; };
+		3150473E1D3F8AEB00754ABC /* Hidden_StatusBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150473D1D3F8AEB00754ABC /* Hidden_StatusBarTests.swift */; };
+		315047491D3F8AEB00754ABC /* Hidden_StatusBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315047481D3F8AEB00754ABC /* Hidden_StatusBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3150473A1D3F8AEB00754ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3150471D1D3F8AEB00754ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315047241D3F8AEB00754ABC;
+			remoteInfo = "Hidden-StatusBar";
+		};
+		315047451D3F8AEB00754ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3150471D1D3F8AEB00754ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315047241D3F8AEB00754ABC;
+			remoteInfo = "Hidden-StatusBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315047251D3F8AEB00754ABC /* Hidden-StatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hidden-StatusBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315047281D3F8AEB00754ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3150472A1D3F8AEB00754ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3150472D1D3F8AEB00754ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3150472F1D3F8AEB00754ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315047321D3F8AEB00754ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		315047341D3F8AEB00754ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315047391D3F8AEB00754ABC /* Hidden-StatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hidden-StatusBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3150473D1D3F8AEB00754ABC /* Hidden_StatusBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden_StatusBarTests.swift; sourceTree = "<group>"; };
+		3150473F1D3F8AEB00754ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315047441D3F8AEB00754ABC /* Hidden-StatusBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hidden-StatusBarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315047481D3F8AEB00754ABC /* Hidden_StatusBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden_StatusBarUITests.swift; sourceTree = "<group>"; };
+		3150474A1D3F8AEB00754ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315047221D3F8AEB00754ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315047361D3F8AEB00754ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315047411D3F8AEB00754ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3150471C1D3F8AEB00754ABC = {
+			isa = PBXGroup;
+			children = (
+				315047271D3F8AEB00754ABC /* Hidden-StatusBar */,
+				3150473C1D3F8AEB00754ABC /* Hidden-StatusBarTests */,
+				315047471D3F8AEB00754ABC /* Hidden-StatusBarUITests */,
+				315047261D3F8AEB00754ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		315047261D3F8AEB00754ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315047251D3F8AEB00754ABC /* Hidden-StatusBar.app */,
+				315047391D3F8AEB00754ABC /* Hidden-StatusBarTests.xctest */,
+				315047441D3F8AEB00754ABC /* Hidden-StatusBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315047271D3F8AEB00754ABC /* Hidden-StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				315047281D3F8AEB00754ABC /* AppDelegate.swift */,
+				3150472A1D3F8AEB00754ABC /* ViewController.swift */,
+				3150472C1D3F8AEB00754ABC /* Main.storyboard */,
+				3150472F1D3F8AEB00754ABC /* Assets.xcassets */,
+				315047311D3F8AEB00754ABC /* LaunchScreen.storyboard */,
+				315047341D3F8AEB00754ABC /* Info.plist */,
+			);
+			path = "Hidden-StatusBar";
+			sourceTree = "<group>";
+		};
+		3150473C1D3F8AEB00754ABC /* Hidden-StatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3150473D1D3F8AEB00754ABC /* Hidden_StatusBarTests.swift */,
+				3150473F1D3F8AEB00754ABC /* Info.plist */,
+			);
+			path = "Hidden-StatusBarTests";
+			sourceTree = "<group>";
+		};
+		315047471D3F8AEB00754ABC /* Hidden-StatusBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				315047481D3F8AEB00754ABC /* Hidden_StatusBarUITests.swift */,
+				3150474A1D3F8AEB00754ABC /* Info.plist */,
+			);
+			path = "Hidden-StatusBarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315047241D3F8AEB00754ABC /* Hidden-StatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3150474D1D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBar" */;
+			buildPhases = (
+				315047211D3F8AEB00754ABC /* Sources */,
+				315047221D3F8AEB00754ABC /* Frameworks */,
+				315047231D3F8AEB00754ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hidden-StatusBar";
+			productName = "Hidden-StatusBar";
+			productReference = 315047251D3F8AEB00754ABC /* Hidden-StatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		315047381D3F8AEB00754ABC /* Hidden-StatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315047501D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBarTests" */;
+			buildPhases = (
+				315047351D3F8AEB00754ABC /* Sources */,
+				315047361D3F8AEB00754ABC /* Frameworks */,
+				315047371D3F8AEB00754ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3150473B1D3F8AEB00754ABC /* PBXTargetDependency */,
+			);
+			name = "Hidden-StatusBarTests";
+			productName = "Hidden-StatusBarTests";
+			productReference = 315047391D3F8AEB00754ABC /* Hidden-StatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		315047431D3F8AEB00754ABC /* Hidden-StatusBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315047531D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBarUITests" */;
+			buildPhases = (
+				315047401D3F8AEB00754ABC /* Sources */,
+				315047411D3F8AEB00754ABC /* Frameworks */,
+				315047421D3F8AEB00754ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315047461D3F8AEB00754ABC /* PBXTargetDependency */,
+			);
+			name = "Hidden-StatusBarUITests";
+			productName = "Hidden-StatusBarUITests";
+			productReference = 315047441D3F8AEB00754ABC /* Hidden-StatusBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3150471D1D3F8AEB00754ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					315047241D3F8AEB00754ABC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					315047381D3F8AEB00754ABC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 315047241D3F8AEB00754ABC;
+					};
+					315047431D3F8AEB00754ABC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 315047241D3F8AEB00754ABC;
+					};
+				};
+			};
+			buildConfigurationList = 315047201D3F8AEB00754ABC /* Build configuration list for PBXProject "Hidden-StatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3150471C1D3F8AEB00754ABC;
+			productRefGroup = 315047261D3F8AEB00754ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315047241D3F8AEB00754ABC /* Hidden-StatusBar */,
+				315047381D3F8AEB00754ABC /* Hidden-StatusBarTests */,
+				315047431D3F8AEB00754ABC /* Hidden-StatusBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315047231D3F8AEB00754ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315047331D3F8AEB00754ABC /* LaunchScreen.storyboard in Resources */,
+				315047301D3F8AEB00754ABC /* Assets.xcassets in Resources */,
+				3150472E1D3F8AEB00754ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315047371D3F8AEB00754ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315047421D3F8AEB00754ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315047211D3F8AEB00754ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3150472B1D3F8AEB00754ABC /* ViewController.swift in Sources */,
+				315047291D3F8AEB00754ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315047351D3F8AEB00754ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3150473E1D3F8AEB00754ABC /* Hidden_StatusBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315047401D3F8AEB00754ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315047491D3F8AEB00754ABC /* Hidden_StatusBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3150473B1D3F8AEB00754ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315047241D3F8AEB00754ABC /* Hidden-StatusBar */;
+			targetProxy = 3150473A1D3F8AEB00754ABC /* PBXContainerItemProxy */;
+		};
+		315047461D3F8AEB00754ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315047241D3F8AEB00754ABC /* Hidden-StatusBar */;
+			targetProxy = 315047451D3F8AEB00754ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3150472C1D3F8AEB00754ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3150472D1D3F8AEB00754ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		315047311D3F8AEB00754ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315047321D3F8AEB00754ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3150474B1D3F8AEB00754ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3150474C1D3F8AEB00754ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3150474E1D3F8AEB00754ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hidden-StatusBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3150474F1D3F8AEB00754ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hidden-StatusBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		315047511D3F8AEB00754ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hidden-StatusBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hidden-StatusBar.app/Hidden-StatusBar";
+			};
+			name = Debug;
+		};
+		315047521D3F8AEB00754ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hidden-StatusBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hidden-StatusBar.app/Hidden-StatusBar";
+			};
+			name = Release;
+		};
+		315047541D3F8AEB00754ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hidden-StatusBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hidden-StatusBar";
+			};
+			name = Debug;
+		};
+		315047551D3F8AEB00754ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hidden-StatusBarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hidden-StatusBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315047201D3F8AEB00754ABC /* Build configuration list for PBXProject "Hidden-StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3150474B1D3F8AEB00754ABC /* Debug */,
+				3150474C1D3F8AEB00754ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3150474D1D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3150474E1D3F8AEB00754ABC /* Debug */,
+				3150474F1D3F8AEB00754ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		315047501D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315047511D3F8AEB00754ABC /* Debug */,
+				315047521D3F8AEB00754ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		315047531D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315047541D3F8AEB00754ABC /* Debug */,
+				315047551D3F8AEB00754ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3150471D1D3F8AEB00754ABC /* Project object */;
+}
