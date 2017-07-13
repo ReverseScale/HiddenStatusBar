@@ -193,13 +193,17 @@
 				TargetAttributes = {
 					315047241D3F8AEB00754ABC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7QT42R489Z;
+						LastSwiftMigration = 0830;
 					};
 					315047381D3F8AEB00754ABC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 315047241D3F8AEB00754ABC;
 					};
 					315047431D3F8AEB00754ABC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 315047241D3F8AEB00754ABC;
 					};
 				};
@@ -399,10 +403,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = "Hidden-StatusBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -410,10 +417,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
 				INFOPLIST_FILE = "Hidden-StatusBar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +435,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hidden-StatusBar.app/Hidden-StatusBar";
 			};
 			name = Debug;
@@ -437,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hidden-StatusBar.app/Hidden-StatusBar";
 			};
 			name = Release;
@@ -448,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Hidden-StatusBar";
 			};
 			name = Debug;
@@ -459,6 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "R.S.Hidden-StatusBarUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Hidden-StatusBar";
 			};
 			name = Release;
@@ -482,6 +496,7 @@
 				3150474F1D3F8AEB00754ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		315047501D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBarTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +505,7 @@
 				315047521D3F8AEB00754ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		315047531D3F8AEB00754ABC /* Build configuration list for PBXNativeTarget "Hidden-StatusBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +514,7 @@
 				315047551D3F8AEB00754ABC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

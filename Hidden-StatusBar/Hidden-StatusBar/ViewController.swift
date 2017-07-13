@@ -11,19 +11,19 @@ import UIKit
 class ViewController: UIViewController {
 
     var isHidden:Bool = false
-    @IBAction func clicked(sender: AnyObject) {
+    
+    @IBAction func clicked(_ sender: AnyObject) {
         isHidden = !isHidden
-        UIView.animateWithDuration(0.5) { () -> Void in
+        UIView.animate(withDuration: 0.5, animations: { () -> Void in
             self.setNeedsStatusBarAppearanceUpdate()
-        }
+        }) 
     }
-    override func preferredStatusBarUpdateAnimation() -> UIStatusBarAnimation {
-        return UIStatusBarAnimation.Slide
+    override var preferredStatusBarUpdateAnimation : UIStatusBarAnimation {
+        return UIStatusBarAnimation.slide
     }
-    override func prefersStatusBarHidden() -> Bool {
+    override var prefersStatusBarHidden : Bool {
         return isHidden
     }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
